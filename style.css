@@ -26,4 +26,15 @@
 
 html {
     font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {    
+    height: 100vh;
+
+    background-color: var(--dark-blue);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
