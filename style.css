@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+/*Primary colors*/
+    --lightblue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+/*Neutral colors*/
+    --dark-blue: hsl(217, 54%, 11%);
+    --blue: hsl(216, 50%, 16%);
+    --grayish-blue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+/*Font-weights*/
+    --normal: 300;
+    --medium: 400;
+    --bold: 600;
+}
+
+html {
+    font-size: 18px;
+}
