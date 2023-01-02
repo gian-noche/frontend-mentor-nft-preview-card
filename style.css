@@ -38,3 +38,33 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.card {
+    width: 85%;
+
+    background-color: var(--blue);
+
+    padding: 1.5rem;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price,
+.duration {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.credit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
