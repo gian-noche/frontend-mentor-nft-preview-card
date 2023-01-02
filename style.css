@@ -60,6 +60,7 @@ body {
 .price,
 .duration {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
 }
 
@@ -67,4 +68,38 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+/*Colors and sizes*/
+.item-name,
+.creator {
+    color: var(--white);
+}
+
+.item-name {
+    font-size: 1.25rem;
+}
+
+.item-description,
+.duration p,
+.credit p {
+    color: var(--lightblue);
+    font-size: 1rem;
+    font-weight: var(--normal);
+}
+
+.price {
+    color: var(--cyan);
+    font-weight: var(--medium);
+}
+
+.image-avatar {
+    aspect-ratio: 1 / 1;
+    width: 2rem;
+}
+
+.eth-icon,
+.clock.icon {
+    aspect-ratio: 1 / 1;
+    width: .5rem;
 }
