@@ -82,7 +82,7 @@ The main obstacle for me on this one was the hover state.
 }
 ```
 
-This is also the first time I used <hr> for these challenges so that's an added bonus.
+This is also the first time I used ```<hr>``` for these challenges so that's an added bonus.
 
 ### Continued development
 
