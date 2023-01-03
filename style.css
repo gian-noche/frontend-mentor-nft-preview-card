@@ -52,6 +52,39 @@ body {
     width: 100%;
 
     border-radius: 0.5rem;
+
+    display: block;
+}
+
+/*This is for the overlay*/
+.overlay {
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--cyan);
+    border-radius: 0.5rem;
+
+    z-index: 2;
+}
+
+/*This centers the view icon in the image*/
+.image {
+    position: relative;
+}
+
+.icon-view,
+.overlay {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+
+    opacity: 0;
+}
+
+.icon-view {
+    z-index: 3;
 }
 
 .offer {
@@ -120,4 +153,29 @@ hr {
 
     border: 1px solid var(--white);
     border-radius: 50%;
+}
+
+/*Hover and active states*/
+.image:hover {
+    cursor: pointer;
+}
+
+.image:hover .icon-view {
+    opacity: 1;
+}
+
+.image:hover .overlay {
+    opacity: 0.5;
+}
+
+.item-name:hover {
+    cursor: pointer;
+
+    color: var(--cyan);
+}
+
+.creator:hover {
+    cursor: pointer;
+
+    color: var(--cyan);
 }
