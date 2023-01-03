@@ -43,12 +43,15 @@ body {
     width: 85%;
 
     background-color: var(--blue);
+    border-radius: 1rem;
 
     padding: 1.15rem;
 }
 
 .hero-image {
     width: 100%;
+
+    border-radius: 0.5rem;
 }
 
 .offer {
