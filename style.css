@@ -6,7 +6,6 @@
     padding: 0;
 }
 
-
 :root {
 /*Primary colors*/
     --lightblue: hsl(215, 51%, 70%);
@@ -40,6 +39,7 @@ body {
 }
 
 .card {
+    max-width: 318.75px;
     width: 85%;
 
     background-color: var(--blue);
